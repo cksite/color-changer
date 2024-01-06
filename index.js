@@ -23,6 +23,11 @@ buttons.forEach((button) => {
 
         // method 1
         body.style.backgroundColor = e.target.id;
+        if(e.target.id === 'white' || e.target.id === 'yellow')
+            body.style.color = "black";
+        else{
+            body.style.color = "white";
+        }
         
 
 
